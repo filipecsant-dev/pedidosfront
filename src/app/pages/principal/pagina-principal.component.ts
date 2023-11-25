@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-pagina-principal',
   standalone: true,
   imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.sass'
+  templateUrl: './pagina-principal.component.html',
+  styleUrl: './pagina-principal.component.sass'
 })
-export class AppComponent {
-  title = 'pedidosfront';
+export class PaginaPrincipalComponent {
+
 }
